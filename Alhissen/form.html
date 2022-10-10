@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="" method="get">
+            <h1>student information</h1>
+            <div>
+                <label for="student_name">Student Name</label>
+                <input id="student_name" name="name" type="text" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input id="age" type="number" min="18" max="25" placeholder="Your age">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your name">
+            </div>
+            <div> <label for="">Gendre :</label></div>
+            <div>
+                <label for="Male">Male</label>
+                <input id="Male" type="radio" name="gendre" value="Male">
+            </div>
+            <div>
+                <label for="Fmale">Fmale</label>
+                <input id="Fmale" type="radio" name="gendre" value="Male">
+            </div>
+            <div>
+                <label for="Location">Location:- </label>
+                <select id="Location" name="location" id="">
+                    <option value="Amman">Amman</option>
+                    <option value="Zarqa">Zarqa</option>
+                    <option value="Irbid">Irbid</option>
+                    <option value="Mafraq">Mafraq</option>
+                </select>
+            </div>
+            <div>
+                <label for="cv">Your Cv</label>
+                <input type="file" name="cv_name" id="cv" placeholder="Enter Your Cv">
+            </div>
+            <div>
+                <div>
+                    <label for="con">Contact</label>
+                    <input type="checkbox" name="Contact" id="con">
+                </div>
+                <label for="num">phone number</label>
+                <input type="number" name="number" id="num" placeholder="phone number ">
+            </div>
+            <div>
+                <label for="bio">Bio</label>
+                input <textarea name="bio_information" id="bio" cols="20" rows="10"></textarea>
+            </div>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Age</th>
+                    <th>Gendre</th>
+                    <th>Location</th>
+                    <th>Your Cv</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ayham</td>
+                    <td>23</td>
+                    <td>Male</td>
+                    <td>Zarqa</td>
+                    <td>ayham_Cv</td>
+                    <td>078666666</td>
+                </tr>
+                <tr>
+                    <td>Hamza</td>
+                    <td>24</td>
+                    <td>Male</td>
+                    <td>Amman</td>
+                    <td>Hamza_CV</td>
+                    <td>078777777</td>
+                </tr>
+                <tr>
+                    <td>Abeer</td>
+                    <td>21</td>
+                    <td>Fmale</td>
+                    <td>Irbid</td>
+                    <td>Abeer_CV</td>
+                    <td>0784444466</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
