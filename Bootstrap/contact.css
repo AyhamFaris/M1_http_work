@@ -1,0 +1,24 @@
+.main-contact {
+
+    position: relative;
+}
+
+.parent{
+    background-color: rgb(35, 35, 35);
+    height: 100vh;
+    position: relative;
+}
+
+.Contact{
+    text-align: center;
+    margin: 10% 42%;
+    position: absolute;
+}
+
+p{
+    color: aliceblue;
+}
+
+input {
+    margin-bottom: 9px;
+}
